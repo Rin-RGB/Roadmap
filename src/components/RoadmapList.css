@@ -1,0 +1,28 @@
+body{min-width: 300px;}
+.roadmap-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .roadmap-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+}
+
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #888;
+  font-style: italic;
+}
+
+.title {
+  margin-bottom: 10px;
+  color: #333;
+}
