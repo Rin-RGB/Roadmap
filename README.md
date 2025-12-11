@@ -6,3 +6,4 @@
  `npm install
  npm start`
 
+Либо просто перейдите по ссылке: https://rin-rgb.github.io/Roadmap/
