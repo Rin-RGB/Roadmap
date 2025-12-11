@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { RoadmapProvider } from './context/RoadmapContext';
 import Header from './components/Header';
 import RoadmapList from './components/RoadmapList';
